@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Ex1</string>
+    <string name="intro">This activity demonesters the use of Relative Layout with two internal Liner Layout </string>
+    <string name="name">Your Name:</string>
+    <string name="press">Press me!</string>
+    <string name="cb1">Option 1</string>
+    <string name="cb2">Option 2</string>
+    <string name="cb3">Option 3</string>
+    <string name="alt1">Alternative 1</string>
+    <string name="alt2">Alternative 2</string>
+
+
+</resources>
