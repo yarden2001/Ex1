@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="1">
 
         <TextView
-            android:id="@+id/intro"
+            android:id="@+id/tvIntro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -17,11 +18,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:layout_below="@id/intro"
+        android:layout_below="@id/tvIntro"
         android:id="@+id/LL1">
 
         <TextView
-            android:id="@+id/textViewName"
+            android:id="@+id/tvName"
             android:layout_width="89dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
@@ -29,7 +30,7 @@
             />
 
         <EditText
-            android:id="@+id/input"
+            android:id="@+id/edInput"
             android:layout_width="117dp"
             android:layout_height="wrap_content"
 
@@ -37,7 +38,7 @@
           />
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/btPressMe"
             android:layout_width="127dp"
             android:layout_height="wrap_content"
 
@@ -58,15 +59,15 @@
 
 
         <CheckBox
-        android:id="@+id/checkBox"
+        android:id="@+id/cbOp1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/cb1"
-        android:layout_above="@+id/checkBox3"
+        android:layout_above="@+id/cbOp3"
         android:layout_alignEnd="@+id/textView" />
 
         <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/cbOp2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/cb2"
@@ -74,12 +75,12 @@
         android:layout_alignEnd="@+id/textView" />
 
         <CheckBox
-            android:id="@+id/checkBox3"
+            android:id="@+id/cbOp3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/cb3"
-            android:layout_alignBaseline="@+id/checkBox2"
-            android:layout_alignBottom="@+id/checkBox2"
+            android:layout_alignBaseline="@+id/cbOp1"
+            android:layout_alignBottom="@+id/cbOp1"
             android:layout_alignEnd="@+id/textView" />
 
         <View
@@ -95,15 +96,15 @@
             android:layout_height="match_parent">
 
             <RadioButton
-                android:id="@+id/radioButton3"
+                android:id="@+id/rbAlt1"
                 android:layout_width="wrap_content"
                 android:layout_height="44dp"
                 android:text="@string/alt1"
-                android:layout_above="@+id/radioButton4"
+                android:layout_above="@+id/rb"
                 android:layout_alignParentStart="true" />
 
             <RadioButton
-            android:id="@+id/radioButton4"
+            android:id="@+id/rbAlt2"
             android:layout_width="wrap_content"
             android:layout_height="44dp"
             android:text="@string/alt2"

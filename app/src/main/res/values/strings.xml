@@ -8,6 +8,7 @@
     <string name="cb3">Option 3</string>
     <string name="alt1">Alternative 1</string>
     <string name="alt2">Alternative 2</string>
+    <string name="introImage">This activity demonstrates the use of Grid Lsyout with embedded image views</string>
 
 
 </resources>
