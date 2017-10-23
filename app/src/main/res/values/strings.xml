@@ -9,6 +9,10 @@
     <string name="alt1">Alternative 1</string>
     <string name="alt2">Alternative 2</string>
     <string name="introImage">This activity demonstrates the use of Grid Lsyout with embedded image views</string>
+    <string name="introCell">This Activity demonstrates the use the Table Layout with spanning columns</string>
+    <string name="cel1">Cell1 </string>
+    <string name="cel2">Cell2 </string>
+
 
 
 </resources>
