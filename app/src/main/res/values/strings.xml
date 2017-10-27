@@ -12,7 +12,14 @@
     <string name="introCell">This Activity demonstrates the use the Table Layout with spanning columns</string>
     <string name="cel1">Cell1 </string>
     <string name="cel2">Cell2 </string>
-
-
+    <string name="cel3">Cell3 </string>
+    <string name="cel4">Cell4 </string>
+    <string name="cel5">Cell5 </string>
+    <string name="cel6">Cell6 </string>
+    <string name="cel7">Cell7 </string>
+    <string name="cel8">Cell8 </string>
+    <string name="cel9">Cell9 </string>
+    <string name="introClock">This activity demonstrates the use of Frame Layout with multiple views on top of each other</string>
+    <string name="tvClock">My clock</string>
 
 </resources>
